@@ -1,16 +1,21 @@
 NETWORK_PASSPHRASE="Pi Testnet"
+FEDERATION_SERVER=""
+AUTH_SERVER=""
+TRANSFER_SERVER=""
+WEB_AUTH_ENDPOINT=""
+
+SIGNING_KEY="GBJ5AUPNDD4ASD5XCOANL6CACNEW3AUTAVPXEKSK3KIPJFDHRGVHF2HQ"
 
 ACCOUNTS=[
 "GBJ5AUPNDD4ASD5XCOANL6CACNEW3AUTAVPXEKSK3KIPJFDHRGVHF2HQ",
 "GDGTL5JUGK7I5PD5U5AQSIA6LEWSOUPVM7XKJ3TNTWCJ7RRTRZHK45E2"
 ]
 
-VERSION="1.0.0"
-
 [[CURRENCIES]]
 code="DYF"
 issuer="GBJ5AUPNDD4ASD5XCOANL6CACNEW3AUTAVPXEKSK3KIPJFDHRGVHF2HQ"
 display_decimals=7
 name="DYF Token"
-desc="DYF token issued on Pi Network Testnet for ecosystem development."
-conditions="Token issued for testing on Pi Network Testnet."
+desc="DYF Token on Pi Network Testnet"
+conditions="Token issued for testing on Pi Network."
+image="https://tranvandinh128.github.io/TokenDYF/logo.png"
